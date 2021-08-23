@@ -21,6 +21,8 @@ Navegue até o diretório contato(pasta do projeto):
 	cd contato
 ```
 Ative o ambiente virtual env:
+
+```
 	Windows
 		env\Scripts\activate
 	Linux
@@ -28,13 +30,14 @@ Ative o ambiente virtual env:
  ```
 Para esse projeto é necessário django, django rest framework, django-cors-headers e postgres
 segue comando abaixo para instalar todos;
+ 
  ```
 	pip install django djangorestframework django-cors-headers psycopg2
  ```
 
 Abra o arquivo contatos/contatoapi/settings.py e altere as configurações de conexão ao banco
-************Segue anexo os scripts das tabelas para rodar no postgres
 ** as configurações abaixo já estão de acordo com as que estavam rodando no localhost.
+
 ```
  DATABASES = {
     'default': {
@@ -47,6 +50,8 @@ Abra o arquivo contatos/contatoapi/settings.py e altere as configurações de co
     }
  }
  ```
+************Segue anexo os scripts das tabelas para rodar no postgres
+
 
 Execute o servidor para rodar, va para a pasta raiz do projeto contato e execute o comando:
  ```
@@ -64,10 +69,12 @@ Execute o servidor para rodar, va para a pasta raiz do projeto contato e execute
 
 
 ***Importante foi utilizado Axios, cliente HTTP que faz chamadas na API, caso não tenha instalado segue script abaixo:
+
  ```
  	Navegue a até a pasta frontend: cd contatos/frontend
 	***Necessário instalar npm
  	E execute o comando: npm install axios --save
+ ```
 
 ****Foi utilizado React Router caso não tenha instalado segue abaixo
 	Navegue a até a pasta frontend: cd contatos/frontend
