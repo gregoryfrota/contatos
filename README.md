@@ -42,7 +42,7 @@ Abra o arquivo contatos/contatoapi/settings.py e altere as configurações de co
     }
  }
 
-Execute o servidor para rodar a api
+Execute o servidor para rodar, va para a pasta raiz do projeto contato e execute o comando:
  python manage.py runserver
 
 *****Endereços da api*******:
