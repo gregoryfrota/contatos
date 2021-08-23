@@ -79,6 +79,7 @@ Execute o servidor para rodar, va para a pasta raiz do projeto contato e execute
 ****Foi utilizado React Router caso não tenha instalado segue abaixo
 ```
 	Navegue a até a pasta frontend: cd contatos/frontend
+	Execute
 	npm install --save react-router-dom
 ```
 
@@ -86,6 +87,7 @@ Para rodar o react abra outro prompt de comando e deixe a env rodando conforme f
 e nesse outro prompt que foi aberto execute estes comandos:
  ```
 	Navegue a até a pasta frontend: cd contatos/frontend
+	Execute
 	npm start
  ```
 Endereço do frontend com react:
