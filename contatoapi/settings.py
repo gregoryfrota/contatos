@@ -82,11 +82,11 @@ WSGI_APPLICATION = 'contatoapi.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'lista_contatos',
-        'USER': 'myuser',
-        'PASSWORD': 'root',
-        'HOST': 'localhost',
-        'PORT': '',
+        "NAME": "postgres",
+        "USER": "postgres",
+        "PASSWORD": "postgres",
+        "HOST": "db",
+        "PORT": 5432,
     }
 }
 
